@@ -1,0 +1,19 @@
+.header-container{
+    display: grid;
+    grid-template-columns: 70% 30%;
+    gap: 1em;
+    padding: 1em;
+
+}
+
+
+.signOut{
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.link{
+    text-decoration: none;
+    border:solid black;
+    padding: 0.5em;
+}

@@ -1,0 +1,29 @@
+.container{
+    display: grid;
+    gap:30px;
+    grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+    padding: 3rem;
+}
+
+.sign-in{
+    width: 20em;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.sign-up{
+    width: 25em;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.title{
+    margin: 10px 0;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
